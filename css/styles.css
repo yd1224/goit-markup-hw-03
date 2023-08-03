@@ -1,0 +1,218 @@
+:root {
+  --brand-color: #4d5ae5;
+  --navyblue: #2e2f42;
+  --bcg: #fff;
+  --body-text: #434455;
+  --pressed-state: #404bbf;
+  --footer-light: #f4f4fd;
+}
+/* Studio */
+/* Global-styles */
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--body-text);
+  background-color: var(--bcg);
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+}
+/* Header-styles */
+.header {
+}
+.header-logo {
+  color: var(--brand-color);
+  font-size: 18px;
+  font-weight: 800;
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.header-accent {
+  color: var(--navyblue);
+}
+.header-nav-list-item-link {
+  color: var(--navyblue);
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Roboto, sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.header-nav-list-item-link:hover,
+.header-nav-list-item-link:focus {
+  color: var(--pressed-state);
+}
+.header-address {
+  font-style: normal;
+}
+
+.header-address-list-item-link {
+  color: var(--body-text);
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Roboto, sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-style: normal;
+}
+.header-address-list-item-link:hover,
+.header-address-list-item-link:focus {
+  color: var(--pressed-state);
+}
+/* Hero-styles */
+.hero-section {
+  background-color: var(--navyblue);
+}
+.hero-section-title {
+  color: var(--bcg);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.hero-section-btn {
+  color: var(--bcg);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-family: Roboto, sans-serif;
+  background-color: var(--brand-color);
+  text-align: center;
+  cursor: pointer;
+}
+.hero-section-btn:hover,
+.hero-section-btn:focus {
+  background-color: var(--pressed-state);
+}
+/* Advantages-styles */
+
+.advantages-section-list-item-title {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.advantages-section-list-item-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+/* Offers-styles */
+
+.offers-section-title {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+}
+/* Team-styles */
+
+.team-section {
+  background-color: var(--footer-light);
+}
+.team-section-list-item {
+  background-color: var(--bcg);
+}
+.team-section-title {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: var(--navyblue);
+}
+
+.team-section-list-subtitle {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.team-section-list-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+/* Footer-styles */
+.footer {
+  background-color: var(--navyblue);
+}
+
+.footer-logo {
+  color: var(--brand-color);
+  font-size: 18px;
+  font-weight: 800;
+  font-family: Raleway, sans-serif;
+  text-transform: uppercase;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.footer-accent {
+  color: var(--footer-light);
+}
+.footer-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--footer-light);
+}
+
+/* Portfolio */
+/* Section-styles */
+
+.btn-list {
+}
+.btn-list-item {
+}
+.btn {
+  background-color: var(--footer-light);
+  color: var(--brand-color);
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  font-family: Roboto, sans-serif;
+}
+.btn:hover,
+.btn:focus {
+  background-color: var(--pressed-state);
+  color: var(--bcg);
+}
+
+.section-list-link-img {
+}
+.section-list-link-title {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.section-list-link-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--body-text);
+}
