@@ -17,11 +17,13 @@ body {
   text-decoration: none;
 }
 .container {
-  width: 1128px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  outline: 2px solid red;
+  outline-offset: -2px;
 }
 .visually-hidden {
   position: absolute;
@@ -34,6 +36,10 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 /* reset */
@@ -104,6 +110,12 @@ img {
 /* Hero-styles */
 .hero-section {
   background-color: var(--navyblue);
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.hero-container {
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .hero-section-title {
   color: var(--bcg);
@@ -112,6 +124,9 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
+  width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 .hero-section-btn {
   color: var(--bcg);
@@ -123,19 +138,24 @@ img {
   background-color: var(--brand-color);
   text-align: center;
   cursor: pointer;
+  padding: 16px 32px;
 }
 .hero-section-btn:hover,
 .hero-section-btn:focus {
   background-color: var(--pressed-state);
 }
 /* Advantages-styles */
-
+.advantages-section {
+  background-color: aqua;
+  padding-top: 120px;
+}
 .advantages-section-list-item-title {
   color: var(--navyblue);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .advantages-section-list-item-text {
   font-size: 16px;
@@ -144,6 +164,8 @@ img {
   letter-spacing: 0.02em;
 }
 /* Offers-styles */
+.offers-section {
+}
 
 .offers-section-title {
   font-size: 36px;
@@ -153,15 +175,18 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--navyblue);
+  width: 323px;
+  margin: 0 auto;
+  margin-bottom: 72px;
 }
 /* Team-styles */
 
 .team-section {
   background-color: var(--footer-light);
+  padding-bottom: 120px;
+  padding-top: 120px;
 }
-.team-section-list-item {
-  background-color: var(--bcg);
-}
+
 .team-section-title {
   font-size: 36px;
   font-weight: 700;
@@ -170,8 +195,16 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--navyblue);
+  width: 162px;
+  margin: 0 auto;
+  margin-bottom: 72px;
 }
-
+.team-section-list-item {
+  background-color: var(--bcg);
+}
+.team-section-list-img {
+  margin-bottom: 32px;
+}
 .team-section-list-subtitle {
   color: var(--navyblue);
   font-size: 20px;
@@ -179,6 +212,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 8px;
 }
 .team-section-list-text {
   font-size: 16px;
@@ -190,6 +224,8 @@ img {
 /* Footer-styles */
 .footer {
   background-color: var(--navyblue);
+  padding-top: 101.5px;
+  padding-bottom: 100px;
 }
 
 .footer-logo {
