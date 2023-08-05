@@ -38,8 +38,6 @@ body {
   overflow: hidden;
 }
 .section {
-  padding-top: 60px;
-  padding-bottom: 60px;
 }
 
 /* reset */
@@ -110,8 +108,6 @@ img {
 /* Hero-styles */
 .hero-section {
   background-color: var(--navyblue);
-  padding-top: 0;
-  padding-bottom: 0;
 }
 .hero-container {
   padding-top: 188px;
@@ -148,6 +144,7 @@ img {
 .advantages-section {
   background-color: aqua;
   padding-top: 120px;
+  padding-bottom: 60px;
 }
 .advantages-section-list-item-title {
   color: var(--navyblue);
@@ -165,6 +162,8 @@ img {
 }
 /* Offers-styles */
 .offers-section {
+  padding-top: 60px;
+  padding-bottom: 120px;
 }
 
 .offers-section-title {
