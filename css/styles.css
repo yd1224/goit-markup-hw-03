@@ -186,7 +186,9 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-
+.advantages-section-list {
+  --items: 4;
+}
 .advantages-section-list-item-title {
   color: var(--navyblue);
   font-size: 20px;
@@ -341,6 +343,7 @@ img {
 .btn:focus {
   background-color: var(--pressed-state);
   color: var(--bcg);
+  border: 1px solid transparent;
 }
 
 .section-list-link-img {
@@ -352,6 +355,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  border-top: none;
 }
 .section-list-link-title {
   color: var(--navyblue);
